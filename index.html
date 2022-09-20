@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha de pagamento JS</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body >
+    
+    <section class="conteudo">
+
+        <h1>Folha de pagamento Simulação</h1><br><br><br><br>
+
+
+        <div class="div">
+           <fieldset class="fieldset">
+               <label for="nome1" class="labels">Nome:</label>
+            <input type="text" name="nome1" id="nome1" required placeholder="Ex: Gabriel da Silva"> 
+        </fieldset>
+        </div>
+        
+        
+        <fieldset class="fieldset"> 
+        <div class="div">
+            <label for="mes1" class="labels">Mês:</label>
+            <select name="mes1" id="mes1">
+                <option select disabled  value="">Selecione</option>
+                <option value="Janeiro">Janeiro</option>
+                <option value="Fevereiro">Fevereiro</option>
+                <option value="Março">Março</option>
+                <option value="Abril">Abril</option>
+                <option value="Maio">Maio</option>
+                <option value="Junho">Junho</option>
+                <option value="Julho">Julho</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Setembro">Setembro</option>
+                <option value="Outubro">Outubro</option>
+                <option value="Novembro">Novembro</option>
+                <option value="Dezembro">Dezembro</option>
+            </select>
+        </fieldset>
+        </div>
+        
+        <div class="div">
+            <fieldset class="fieldset">
+                <label for="ano1" class="labels">Ano: </label>
+             <input type="text" name="ano1" id="ano1" required placeholder="Ex:2010"> 
+         </fieldset>
+         </div>
+        
+         <div class="div">
+            <fieldset class="fieldset">
+                <label for="horas1" class="labels">Horas:  </label>
+             <input type="number" name="horas1" id="horas1" required placeholder="Ex:600"> 
+         </fieldset>
+         </div>
+        
+         <div class="div">
+            <fieldset class="fieldset">
+                <label for="vhora1" class="labels">Valor Hora:  </label>
+             <input type="number" name="vhora1" id="vhora1" required placeholder="Ex:15"> 
+         </fieldset>
+         </div>
+         <br><br>
+       
+            
+      <a><button name="btn1" id="btn1" onclick="pag()">Calcular!</button></a>
+  
+        <br><br>
+     
+        <div id="res">
+
+            <h3 id="tt"></h3>
+
+            <p id="res1"></p><br>
+            <p id="res2"></p><br>
+            <p id="res3"></p><br>
+            <p id="res4"></p><br>
+            <p id="res4"></p><br>
+            <p id="res5"></p><br>
+            <p id="res6"></p><br>
+            <p id="res7"></p><br>
+            <p id="res8"></p><br>
+
+
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </section>
+        
+        <script src="pag.js"></script>
+        
+</body>
+</html>
