@@ -1,4 +1,15 @@
- 
+
+function ff(){
+
+function pag();
+function hidesec();
+
+
+
+}
+
+
+
 function hidesec() {
 
 let sec = document.getElementsByTagName("section")[0]
