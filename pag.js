@@ -1,8 +1,8 @@
  
 function hidesec() {
 
-let sec = document.getElementsByTagName("section")
-section.style.display = "none";
+let sec = document.getElementsByTagName("section")[0]
+sec.style.display = "none";
 
 }   
 
