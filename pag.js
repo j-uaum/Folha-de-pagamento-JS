@@ -12,7 +12,7 @@ function hidesec();
 
 function hidesec() {
 
-let sec = document.getElementsByTagName("section")[0]
+let sec = document.getElementById("sec")
 sec.style.display = "none";
 
 }   
