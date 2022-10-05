@@ -1,23 +1,4 @@
 
-function ff(){
-
-function pag();
-function hidesec();
-
-
-
-}
-
-
-
-function hidesec() {
-
-let sec = document.getElementById("sec")
-sec.style.display = "none";
-
-}   
-
-
 function pag(){
       
       let nome = document.getElementById('nome1').value
