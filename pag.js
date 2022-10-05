@@ -1,5 +1,13 @@
  
-   function pag(){
+function hidesec() {
+
+let sec = document.getElementsByTagName("section")
+section.style.display = "none";
+
+}   
+
+
+function pag(){
       
       let nome = document.getElementById('nome1').value
     let ano = parseInt(document.getElementById('ano1').value)
