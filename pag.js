@@ -110,8 +110,10 @@ function fgts(){
   let c = fgts()
   let salarioliq = salariob - a - b -c
 
+  
 
-h1.innerHTML = `Resultado vvv`
+
+h1.innerHTML = `Resultado:`
  res1.innerHTML = `Funcionario: ${nome}`
  res2.innerHTML = `Mês: ${mes}`
  res3.innerHTML = `Ano: ${ano}`
@@ -128,4 +130,9 @@ h1.innerHTML = `Resultado vvv`
 
    }
 
+function hidesec(){
 
+let sec = document.getElementById("sec")
+sec.style.display = "none"
+
+  }
